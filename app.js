@@ -4,7 +4,6 @@ const mongoose= require('mongoose');
 const {User}= require('./usersmodel');
 const {wrapAsync,appError}= require('./errorhandling');
 const search= require('./search');
-// const teams=require('./teams');
 const users=require('./users')
 const cors= require("cors");
 const dotenv= require('dotenv');
