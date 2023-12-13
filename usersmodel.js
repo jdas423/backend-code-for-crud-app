@@ -71,21 +71,6 @@ const validateUpdation=(req,res)=>{
     }
 }
 
-// const teamSchema = new Schema({
-//     id:{
-//         type:Number,
-//         required:true,
-//         unique:true
-//     },
-//     names:[
-//         {
-//             type:Schema.Types.ObjectId,
-//              ref:'User'
-//         }
-//     ]
-//     }
-// )
 
-// const Team = model('Team', teamSchema);
 
 module.exports= { User , validateUser, validateUpdation};
